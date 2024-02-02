@@ -27,7 +27,7 @@ public class Policy {
     private Date expiryDate;
 
     @Column(name = "PRIMARY_INSURAR")
-    private String primaryInsurar;
+    private String primaryInsurer;
 
     @Column(name = "LAST_UPDATED_TIME")
     @UpdateTimestamp
