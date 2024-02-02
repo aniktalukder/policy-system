@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: policy-app
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/mysql
+    username: anik
+    password: anik
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: none
+    show-sql: true
+
+server:
+  port: 8080
