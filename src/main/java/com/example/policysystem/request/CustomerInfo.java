@@ -11,7 +11,7 @@ import lombok.ToString;
 @ToString
 public class CustomerInfo {
 
-    private String claimNo;
+    private String policyNo;
     private String name;
     private String incidentDate;
     private String lossCause;
