@@ -26,7 +26,7 @@ public class Policy {
     @Column(name = "EXPIRY_DATE")
     private Date expiryDate;
 
-    @Column(name = "PRIMARY_INSURAR")
+    @Column(name = "PRIMARY_INSURER")
     private String primaryInsurer;
 
     @Column(name = "LAST_UPDATED_TIME")
